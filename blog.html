@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog | SSCCS</title>
+    <link rel="icon" href="images/logo.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/678a8a835e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"> <img src="images/logo.png" alt="Logo"></a>
+        
+        <i id="bars" class="fa fa-bars" onclick="showMenu()"></i>
+        <div class="nav-links" id="navLinks"> 
+            <i id="fafa" class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="https://mdsolanki321.github.io/devloper_profile/" target="blank">DEVELOPER</a></li>
+            </ul>
+        </div>
+
+    </nav>
+         <h1>Our Certificate & Online Programs For 2022</h1>
+    </section>
+
+<!-- --------blog page content--------- -->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="images/certificate.jpg" alt="certificate">
+            <h2>Our Certificate & Online Programs For 2022</h2><br>
+            <h3>C Programming</h3>
+            <p>This Was And Endeavor To Strengthen The Logical And Reasoning Power Of Students. Students Of Various BCA Colleges Of M.K. Bhavnagar University Participated With Full Zeal & Zest.</p>
+            <br>
+            <h3>IT Quiz Competition</h3>
+            <p>IT Quiz Competition Was Organized For BCA Students Of M.K. Bhavnagar University. The Quiz Cover The Latest News About The Advancement In The Field Of Information Technology. It Consisted Of True Or False, Multiple Choice Questions, Fill In The Blanks, Visual Round & Rapid Fire Round.</p>
+            <br>
+            <h3>Paper Presentation</h3>
+            <p>Paper Presentation Was Organized For The Students Of All The BCA Colleges</p>
+            <br><br>    
+        </div>
+
+        
+
+
+
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Data Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Scientist</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Machine Learning</span>
+                <span>15</span>
+            </div>
+            <div>
+                <span>Computer Science</span>
+                <span>34</span>
+            </div>
+            <div>
+                <span>Web Devlopment</span>
+                <span>12</span>
+            </div>
+            <div>
+                <span>App Development</span>
+                <span>43</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="comment-box">
+    <h3>Leave A Comment</h3>
+    <form class="comment-form">
+        <input type="text" placeholder="Enter Name">
+        <input type="email" placeholder="Enter Email">
+        <textarea rows="5" placeholder="Your Comment"></textarea>
+        <button type="submit" class="hero-btn red-btn">POST COMMENT 
+        </button>
+
+    </form>
+</div>
+
+
+
+
+<!-- ---------Footer------- -->
+<section class="footer">
+    <h4>Abous Us</h4>
+    <p>We care about the quality of our education. Our Team of over 100 experts Web Designer, Data Analytics, Hardware Engineer, Operating System Manager<br> And
+        Android Developer teaches our students from the finest material using an exacting teaching <br>process to ensure they deliver exceptional performance.
+
+    </p>
+    <br>
+    <p>Made with <i class="fa fa-heart-o"></i> by Meet Solanki</p>
+    <div class="icons">
+        <a href="https://www.instagram.com/itz.md_17/"><i class="fa fa-instagram" ></i></a>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div><br>
+    <a class="hero-btn" id="developer-btn" href="https://mdsolanki321.github.io/devloper_profile/" target="blank">CONTACT TO DEVELOPER</a><BR>
+    <br>
+    <div class="copyright">
+        <p>Copyright 2022 © MD_Solanki. All Rights Reserved</p>
+    </div>
+    
+</section>
+
+
+<!-- -----JavaScript for Menu------ -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+   
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>

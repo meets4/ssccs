@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | SSCCS</title>
+    <link rel="icon" href="images/logo.png"/>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Neonderthaw&family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+<script src="https://kit.fontawesome.com/678a8a835e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class= sub-header>
+    <nav>
+        <a href="index.html"> <img src="images/logo.png" alt="Logo"></a>
+        
+        <i id="bars" class="fa fa-bars" onclick="showMenu()"></i>
+        <div class="nav-links" id="navLinks"> 
+            <i id="fafa" class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="https://mdsolanki321.github.io/devloper_profile/" target="blank">DEVELOPER</a></li>
+            </ul>
+        </div>
+        
+
+    </nav>
+    <h1>About Us</h1>
+</section>
+
+<!-- ---------About us content--------- -->
+<section class="about-us">
+    <div class="row">
+        <div class="col">
+            <h1>We are the world's largest university</h1>
+            <p>College aims to march towards excellence by making the child blossom into a good human being by the combination of spirituality with practical life leading towards knowledge and high moral character to develop innovativeness and creativity.</p>
+            <a href="https://www.google.com/search?q=ssccs+bhavnagar&rlz=1C1JJTC_enIN987IN987&sxsrf=APq-WBubesMj0GSOUMxMon68YLbJXXBT9w%3A1644161531365&ei=--n_Yfb2FeSl2roPkr2hgAo&ved=0ahUKEwi24J6As-v1AhXkklYBHZJeCKAQ4dUDCA4&uact=5&oq=ssccs+bhavnagar&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyCgguEMcBEK8BECc6BwgjELADECc6BwgAEEcQsAM6CwguEIAEEMcBEK8BOgQIABAeOgYIABAKEB46BggAEAUQHjoICAAQBRAKEB5KBAhBGABKBAhGGABQhAFYkh1goSBoAXACeACAAYwHiAH8GZIBCzAuMS43LjUtMS4xmAEAoAEByAEKwAEB&sclient=gws-wiz" target="blank" class="hero-btn red-btn">EXPLORE NOW</a>
+        </div>
+        
+        <div class="about-col">
+            <img src="images/about.jpg" alt="">
+        </div>
+        
+    </div>
+</section>
+
+
+
+
+
+<!-- ---------Footer------- -->
+<section class="footer">
+    <h4>Abous Us</h4>
+    <p>We care about the quality of our education. Our Team of over 100 experts Web Designer, Data Analytics, Hardware Engineer, Operating System Manager<br> And
+        Android Developer teaches our students from the finest material using an exacting teaching <br>process to ensure they deliver exceptional performance.
+
+    </p>
+    <br>
+    <p>Made with <i class="fa fa-heart-o"></i> by Meet Solanki</p>
+    <div class="icons">
+        <a href="https://www.instagram.com/itz.md_17/"><i class="fa fa-instagram" ></i></a>
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-linkedin"></i>
+    </div><br>
+    <a class="hero-btn" id="developer-btn" href="https://mdsolanki321.github.io/devloper_profile/" target="blank">CONTACT TO DEVELOPER</a><BR>
+    <br>
+    <div class="copyright">
+        <p>Copyright 2022 © MD_Solanki. All Rights Reserved</p>
+    </div>
+    
+</section>
+
+<!-- -----JavaScript for Menu------ -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+   
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hidemenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+</body>
+</html>
