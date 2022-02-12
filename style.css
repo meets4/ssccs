@@ -430,7 +430,7 @@ p.intro{
     background: #fff;
     position: relative;
     cursor: pointer;
-    font-size: 13px;
+    font-size: 8px;
 }
 #developer-btn:hover{
     border: 1px solid grey;
